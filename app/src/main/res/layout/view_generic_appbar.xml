@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/appbarlayout_generic"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:background="@android:color/white"
+    app:theme="@style/Toolbar">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_generic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:theme="@style/Toolbar"
+        app:title="@string/app_name" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout_generic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:background="?attr/colorPrimary"
+        app:theme="@style/Toolbar" />
+
+</android.support.design.widget.AppBarLayout>
