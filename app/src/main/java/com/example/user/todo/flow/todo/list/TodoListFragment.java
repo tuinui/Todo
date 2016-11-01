@@ -129,7 +129,6 @@ public class TodoListFragment extends BaseFragment {
                         public void onClick(View v) {
                             TodoViewModel data = mDatas.get(holder.getAdapterPosition());
                             pendingMarkAsDone(data, holder.getAdapterPosition());
-                            Toast.makeText(v.getContext(), "Done this task : " + data.toString(), Toast.LENGTH_LONG).show();
                         }
                     });
 

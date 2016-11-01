@@ -263,7 +263,6 @@ public class TodoActivity extends AppCompatActivity implements TodoActivityContr
 
     private void addToDatabase(String todoName) {
         mPresenter.addDataToDb(todoName);
-//        Toast.makeText(this, "Add to db  : " + todoName, Toast.LENGTH_LONG).show();
     }
 
     public class TodoPagerAdapter extends FragmentPagerAdapter {
